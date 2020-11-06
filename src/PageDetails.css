@@ -1,0 +1,33 @@
+.page__details {
+  width: 95%;
+  margin-left: auto;
+  display: flex;
+  padding-top: 30px;
+}
+
+.page__detailsBreadCrumbs > ul {
+  display: flex;
+  list-style-type: none;
+  color: #484848;
+  font-size: 12px;
+  padding-left: 0;
+  margin: 12px;
+}
+
+.page__detailsBreadCrumbs > ul > li {
+  margin-left: 20px;
+}
+
+.page__detailsBreadCrumbs .highlighted {
+  font-weight: 700;
+}
+
+.page__details .MuiSvgIcon-root {
+  padding: 8px 0;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.page__detailsBreadCrumbs li:before {
+  content: "\25B8";
+  color: #feeb9f;
+}
