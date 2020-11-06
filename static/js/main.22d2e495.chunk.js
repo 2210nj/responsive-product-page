@@ -1,0 +1,2 @@
+(this["webpackJsonpresponsive-product-page"]=this["webpackJsonpresponsive-product-page"]||[]).push([[0],{10:function(e,n,t){},11:function(e,n,t){"use strict";t.r(n);var c=t(0),r=t(1),s=t.n(r),o=t(3),i=t.n(o);t(9),t(10);var p=function(){return Object(c.jsx)("div",{className:"app",children:Object(c.jsx)("h1",{children:"Hello World!!!!"})})};i.a.render(Object(c.jsx)(s.a.StrictMode,{children:Object(c.jsx)(p,{})}),document.getElementById("root"))},9:function(e,n,t){}},[[11,1,2]]]);
+//# sourceMappingURL=main.22d2e495.chunk.js.map
