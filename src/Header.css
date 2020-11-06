@@ -1,0 +1,45 @@
+.header {
+  background-color: #ffffff;
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  float: right;
+}
+
+.header__container {
+  width: 100%;
+  padding: 20px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.header .header__logo {
+  flex: 0.1;
+}
+
+.header .header__navigation {
+  display: flex;
+}
+
+.header .header__logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+.header__icons {
+  display: flex;
+}
+
+.header__basketCount {
+  height: 20px;
+  text-align: center;
+  width: 20px;
+  background-color: #FEEB9F;
+  border-radius: 50%;
+  position: relative;
+  right: 22px;
+  top: 5px;
+}
