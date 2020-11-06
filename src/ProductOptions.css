@@ -1,0 +1,35 @@
+.product__optionsLinks {
+  text-align: right;
+}
+
+.product__optionsLinks > ul {
+  list-style-type: none;
+  color: #484848;
+  font-size: 12px;
+  padding-left: 0;
+  margin: 12px;
+  line-height: 55px;
+}
+
+.product__optionsLinks > ul > li {
+  margin-left: 20px;
+}
+
+.product__optionsVerticalText {
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  font-size: 100px;
+  font-weight: 800;
+  color: #fff;
+
+  position: relative;
+  left: -110px;
+  top: 150px;
+}
+
+.product__OptionsSocialMediaLinks {
+  display: flex;
+  justify-content: flex-end;
+}

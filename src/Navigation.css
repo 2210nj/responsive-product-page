@@ -10,8 +10,7 @@
 .navigation__option {
   display: flex;
   flex-direction: column;
-  padding: 0 10px 0 10px; /* top right bottom left */
-  /* color: #000; */
+  padding: 0 10px 0 10px;
   color: #484848;
   font-size: 12px;
   font-weight: 700;

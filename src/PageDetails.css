@@ -1,11 +1,11 @@
-.page__details {
+.page__detailsBreadCrumbs {
   width: 95%;
   margin-left: auto;
   display: flex;
   padding-top: 30px;
 }
 
-.page__detailsBreadCrumbs > ul {
+.page__detailsBreadCrumbsLinks > ul {
   display: flex;
   list-style-type: none;
   color: #484848;
@@ -14,20 +14,33 @@
   margin: 12px;
 }
 
-.page__detailsBreadCrumbs > ul > li {
+.page__detailsBreadCrumbsLinks > ul > li {
   margin-left: 20px;
 }
 
-.page__detailsBreadCrumbs .highlighted {
+.page__detailsBreadCrumbsLinks .highlighted {
   font-weight: 700;
 }
 
-.page__details .MuiSvgIcon-root {
+.page__detailsBreadCrumbs .MuiSvgIcon-root {
   padding: 8px 0;
   color: rgba(0, 0, 0, 0.54);
 }
 
-.page__detailsBreadCrumbs li:before {
+.page__detailsBreadCrumbsLinks li:before {
   content: "\25B8";
-  color: #feeb9f;
+  color: #ffa500;
+}
+
+.page__detailsInfo {
+  display: flex;
+  border: 1px solid black; /*  remove later */
+}
+
+.page__detailsProductsOptions {
+  border: 1px solid red; /*  remove later */
+}
+
+.page__detailsProducts {
+  border: 1px solid green; /*  remove later */
 }
