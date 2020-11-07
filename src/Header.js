@@ -5,16 +5,16 @@ import { IconButton } from "@material-ui/core";
 import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
 import SearchIcon from "@material-ui/icons/Search";
 import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
+import PolymerIcon from '@material-ui/icons/Polymer';
 
 function Header() {
   return (
     <div className="header">
       <div className="header__container">
         <div className="header__logo">
-          <img
-            src="https://www.iconsdb.com/icons/preview/black/shopping-cart-xxl.png"
-            alt="Website Logo"
-          />
+          <IconButton>
+              <PolymerIcon />
+            </IconButton>
         </div>
         <div className="header__navigation">
           <Navigation />
@@ -26,7 +26,7 @@ function Header() {
               <SearchIcon />
             </IconButton>
             <IconButton>
-              <ShoppingBasketIcon  />
+              <ShoppingBasketIcon />
             </IconButton>
             <div className="header__basketCount">2</div>
           </div>

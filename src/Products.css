@@ -1,20 +1,51 @@
-.image{
-    height: 60vh;
-    width: 30vw;
+.image {
+  height: 60vh;
+  width: 30vw;
 }
 
-.products__firstProduct{
-    display: flex;
+.products__firstProduct {
+  display: flex;
 }
 
-.rating{
-    display: flex;
+.rating {
+  display: flex;
 }
 
-.products__oldPrice{
-    text-decoration: line-through;
+.products__oldPrice {
+  text-decoration: line-through;
 }
 
-.product__price{
-    display: flex;
+.product__price {
+  display: flex;
+}
+
+.products__oldPrice {
+  color: gray;
+}
+
+.product__rightContentContainer {
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+.product__info {
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+
+.product__deliveryInfo {
+  display: flex;
+}
+
+.products__dispatchIcon,
+.products__returnIcon {
+  display: flex;
+}
+
+.products__addToCartBtn {
+  /* background-color: #fed442; */
+}
+
+.MuiButton-containedPrimary{
+    background-color: #fed442 !important;
 }

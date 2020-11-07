@@ -1,8 +1,12 @@
+.product__options {
+  display: flex;
+}
 .product__optionsLinks {
   text-align: right;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  height: 80vh;
 }
 
 .product__optionsLinks > ul {
@@ -12,24 +16,34 @@
   padding-left: 0;
   margin: 12px;
   /* line-height: 55px; */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .product__optionsLinks > ul > li {
   margin-left: 20px;
 }
 
+.product__optionsLinks > ul > li > a {
+  text-transform: uppercase;
+  text-decoration: none;
+
+  font-weight: 700;
+  color: #000;
+}
+
 .product__optionsVerticalText {
-  -webkit-transform: rotate(-90deg);
-  -moz-transform: rotate(-90deg);
-  -ms-transform: rotate(-90deg);
-  -o-transform: rotate(-90deg);
+  -webkit-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  -o-transform: rotate(-180deg);
+  writing-mode: tb-rl;
   font-size: 100px;
   font-weight: 800;
   color: #fff;
-
-  position: relative;
-  left: -110px;
-  top: 150px;
+  text-align: center;
 }
 
 .product__OptionsSocialMediaLinks {
@@ -46,4 +60,8 @@
   display: flex;
   flex: 0.7;
   background-color: #fff;
+}
+
+.product__OptionsSocialMediaLinks .MuiIconButton-root {
+  color: #000;
 }
