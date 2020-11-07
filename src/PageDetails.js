@@ -12,13 +12,13 @@ function PageDetails() {
         <div className="page__detailsBreadCrumbsLinks">
           <ul>
             <li>
-              <a href=""></a>CATALOG
+              <a href="">Catalog</a>
             </li>
             <li>
-              <a href=""></a>SOFAS
+              <a href="">Sofas</a>
             </li>
             <li className="highlighted">
-              <a href=""></a>BEIGE NUDIE SOFA
+              <a href="">Beige Nudie Sofa</a>
             </li>
           </ul>
         </div>

@@ -13,16 +13,16 @@ function ProductOptions() {
         <div className="product__optionsLinks">
           <ul>
             <li>
-              <a href="">DETAILS</a>
+              <a href="">Details</a>
             </li>
             <li>
-              <a href="">DESCRIPTION</a>
+              <a href="">Description</a>
             </li>
             <li>
-              <a href="">REVIEWS</a>
+              <a href="">Reviews</a>
             </li>
             <li>
-              <a href="">CUSTOM TAB</a>
+              <a href="">Custom Tab</a>
             </li>
           </ul>
         </div>

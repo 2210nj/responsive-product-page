@@ -1,8 +1,16 @@
 .image {
-  height: 60vh;
-  width: 30vw;
+  /* height: 60vh;
+  width: 30vw; */
+  width: 100%;
+  height: auto;
+
+  position: relative;
+  left: -30px;
 }
 
+.product__leftContent {
+  /* width: 50%; should be included */
+}
 .products__firstProduct {
   display: flex;
 }
@@ -13,10 +21,15 @@
 
 .products__oldPrice {
   text-decoration: line-through;
+  font-weight: 500;
 }
 
 .product__price {
   display: flex;
+}
+
+.product__price > h4 {
+  margin-right: 10px;
 }
 
 .products__oldPrice {
@@ -46,6 +59,29 @@
   /* background-color: #fed442; */
 }
 
-.MuiButton-containedPrimary{
-    background-color: #fed442 !important;
+.MuiButton-containedPrimary {
+  background-color: #fed442 !important;
 }
+
+.product__name {
+  width: 75%;
+}
+
+.rating .dv-star-rating .dv-star-rating-empty-star {
+  color: lightgray !important;
+}
+
+.ratingTotal {
+  color: lightgray;
+  font-weight: 700;
+}
+
+.product__info > ul {
+  padding-left: 15px;
+  font-size: 12px;
+}
+
+.product__info > ul > li > strong {
+  text-transform: uppercase;
+}
+
