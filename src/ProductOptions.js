@@ -6,23 +6,35 @@ import PinterestIcon from "@material-ui/icons/Pinterest";
 import { IconButton } from "@material-ui/core";
 
 function ProductOptions() {
+  const handleClick = (e) => {
+    e.preventDefault();
+    console.log("Handle UL click", e.target.id);
+  };
   return (
     <div className="product__options">
       <div className="product__optionsVerticalText">Details</div>
       <div className="product__optionsLinksContainer">
         <div className="product__optionsLinks">
-          <ul>
+          <ul onClick={handleClick}>
             <li>
-              <a href="">Details</a>
+              <a href="" id="details">
+                Details
+              </a>
             </li>
             <li>
-              <a href="">Description</a>
+              <a href="" id="description">
+                Description
+              </a>
             </li>
             <li>
-              <a href="">Reviews</a>
+              <a href="" id="reviews">
+                Reviews
+              </a>
             </li>
             <li>
-              <a href="">Custom Tab</a>
+              <a href="" id="customTab">
+                Custom Tab
+              </a>
             </li>
           </ul>
         </div>

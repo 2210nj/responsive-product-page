@@ -23,7 +23,7 @@ function Products() {
         </div>
         <div className="product__rightContent">
           <div className="product__rightContentContainer">
-            <h2 class="product__name">Nudie Extendable Sofa for 3 persons.</h2>
+            <h2 className="product__name">Nudie Extendable Sofa for 3 persons.</h2>
             <div className="rating">
               <StarRatingComponent
                 name="rate1"
@@ -31,11 +31,13 @@ function Products() {
                 value={rating}
                 onStarClick={onStarClick}
               />
-              <span class="ratingTotal">(23)</span>
+              <span className="ratingTotal">(23)</span>
             </div>
             <div className="product__price">
-              <h4 className="products__oldPrice">$169</h4>
-              <h4>$149</h4>
+              {/* <h4 className="products__oldPrice">$169</h4>
+              <h4>$149</h4> */}
+              <div className="products__oldPrice">$169</div>
+              <div>$149</div>
             </div>
             <div className="product__info">
               <ul>
@@ -52,45 +54,35 @@ function Products() {
                 <IconButton>
                   <LocalTaxiIcon />
                 </IconButton>
-                <div>Same Day Dispatch</div>
+                <div className="products__iconText">Same Day Dispatch</div>
               </div>
               <div className="products__returnIcon">
                 <IconButton>
                   <SyncIcon />
                 </IconButton>
-                <span>Easy 30-Day return policy</span>
+                <div className="products__iconText">
+                  Easy 30-Day return policy
+                </div>
               </div>
             </div>
             <div className="product__color">
               Color:
-              <CirclePicker colors={colors} />
+              <CirclePicker colors={colors} circleSize={20} />
             </div>
             <div className="products__addRemoveButtons">
-              <div class="cart-quantity">
-                <input
-                  type="button"
-                  value="-"
-                  class="qtyminus"
-                />
+              <div className="cart-quantity">
+                <input type="button" value="-" className="qtyminus" />
                 <input
                   type="button"
                   name="updates[]"
-                  class="quantity"
+                  className="quantity"
                   value="1"
                 />
-                <input
-                  type="button"
-                  value="+"
-                  class="qtyplus"
-                />
+                <input type="button" value="+" className="qtyplus" />
               </div>
-              {/* <AddIcon />
-              1
-              <RemoveIcon />*/}
               <Button variant="contained" color="primary">
                 Add to cart
-              </Button> 
-              {/* <Button className='products__addToCartBtn' raised={true}backgroundColor='#fed442'>Add to cart</Button> */}
+              </Button>
             </div>
           </div>
         </div>
