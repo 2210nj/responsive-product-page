@@ -23,7 +23,7 @@ function Products() {
         </div>
         <div className="product__rightContent">
           <div className="product__rightContentContainer">
-            <h2 className="product__name">Nudie Extendable Sofa for 3 persons.</h2>
+            <div className="product__name">Nudie Extendable Sofa for 3 persons.</div>
             <div className="rating">
               <StarRatingComponent
                 name="rate1"
@@ -87,7 +87,7 @@ function Products() {
           </div>
         </div>
       </div>
-    </div>
+      </div>
   );
 }
 

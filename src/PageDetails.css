@@ -41,13 +41,13 @@
 
 .page__detailsInfo {
   display: flex;
-  border: 1px solid black; /*  remove later */
+  /* border: 1px solid black;  remove later */
 }
 
 .page__detailsProductsOptions {
-  border: 1px solid red; /*  remove later */
+  /* border: 1px solid red;  remove later */
 }
 
 .page__detailsProducts {
-  border: 1px solid green; /*  remove later */
+  /* border: 1px solid green;  remove later */
 }

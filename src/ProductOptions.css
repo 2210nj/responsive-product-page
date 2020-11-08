@@ -61,9 +61,11 @@
 .page__detailsProducts {
   display: flex;
   flex: 0.7;
-  background-color: #fff;
+  /* background-color: #fff; */
 }
 
 .product__OptionsSocialMediaLinks .MuiIconButton-root {
   color: #000;
 }
+
+
