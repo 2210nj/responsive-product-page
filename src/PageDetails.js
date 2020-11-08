@@ -1,8 +1,8 @@
 import React from "react";
 import "./PageDetails.css";
 import HomeIcon from "@material-ui/icons/Home";
-import ProductOptions from "./ProductOptions";
-import Products from "./Products";
+import Product from "./Product";
+import SideNav from "./SideNav";
 
 function PageDetails() {
   return (
@@ -25,10 +25,10 @@ function PageDetails() {
       </div>
       <div className="page__detailsInfo">
         <div className="page__detailsProductsOptions">
-          <ProductOptions />
+          <SideNav />
         </div>
         <div className="page__detailsProducts">
-          <Products />
+          <Product />
         </div>
       </div>
     </div>
